@@ -1,0 +1,108 @@
+.weather-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom right, #a3c9f1, #3a6186);
+    border-radius: 15px;
+    padding: 20px;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+.current-weather {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.current-weather-info {
+    flex: 1;
+    text-align: left;
+}
+
+.current-weather-info h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.current-weather-info p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.current-weather-info h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    width: fit-content;
+}
+
+.location p {
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.weekly-forecast {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    margin-left: 20px;
+}
+
+.forecast-day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 45px;
+    margin: 20px 10px;
+}
+
+.weather-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.weather-box {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    flex: 1 1 calc(45% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 180px;
+}
+
+.weather-box p {
+    margin: 5px 0;
+}
+
+.weather-box svg {
+    font-size: 20px;
+}
